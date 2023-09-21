@@ -1,0 +1,20 @@
+CREATE DATABASE MYFAMILY;
+
+CREATE TABLE FamilyMembers(
+    MembersName VARCHAR(20),
+    Age INT,
+    ContactNumber VARCHAR(15),
+    Occupassion VARCHAR(15),
+    Address VARCHAR(15),
+    MonthlyCost INT
+    )
+
+INSERT INTO familymembers VALUES ('Md.Nayeb Ali',47,'01736485107','Bussiesnessman','Jhenaidah',15000);
+INSERT INTO familymembers VALUES ('Jamena Khatun',45,'01789830123','Teacher','Jhenaidah',19000);
+INSERT INTO familymembers VALUES ('Tanjim H. Masum',22,'01773384722','Student','Dhaka',25000);
+INSERT INTO familymembers VALUES ('Nusrat J. Tabassum',14,'01580863564','Student','Jhenaidah',10000);
+INSERT INTO familymembers VALUES ('Mahi Farhan',8,'01647742018','Student','Jhenaidah',5000);
+
+
+
+SELECT * FROM familymembers;
